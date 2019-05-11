@@ -1,7 +1,7 @@
 'use strict'
 
 const multiaddr = require('multiaddr')
-const Id = require('peer-id')
+const Id = require('eth-peer-id')
 const crypto = require('libp2p-crypto')
 const mafmt = require('mafmt')
 

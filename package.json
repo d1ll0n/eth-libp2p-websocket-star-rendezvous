@@ -1,6 +1,6 @@
 {
-  "name": "libp2p-websocket-star-rendezvous",
-  "version": "0.3.0",
+  "name": "eth-libp2p-websocket-star-rendezvous",
+  "version": "0.0.1",
   "description": "The rendezvous service for libp2p-websocket-star",
   "leadMaintainer": "Jacob Heun <jacobheun@gmail.com>",
   "main": "src/index.js",
@@ -35,7 +35,6 @@
     "debug": "^4.1.1",
     "epimetheus": "^1.0.92",
     "eth-peer-id": "~0.0.2",
-    "eth-peer-info": "~0.0.2",
     "hapi": "^16.6.2",
     "inert": "^4.2.1",
     "libp2p-crypto": "~0.16.1",

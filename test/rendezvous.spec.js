@@ -24,10 +24,10 @@ describe('rendezvous', () => {
   let c3
   let c4
 
-  let c1mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmcgpsyWgH8Y8ajJz1Cu72KnS5uo2Aa2LpzU7kinSoooo1')
-  let c2mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmcgpsyWgH8Y8ajJz1Cu72KnS5uo2Aa2LpzU7kinSoooo2')
-  let c3mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmcgpsyWgH8Y8ajJz1Cu72KnS5uo2Aa2LpzU7kinSoooo3')
-  let c4mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/QmcgpsyWgH8Y8ajJz1Cu72KnS5uo2Aa2LpzU7kinSoooo4')
+  let c1mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/W1p3KrTSzJXH3ujnGvNsYSP5bNvoUrfbmWfZDUnLH7Py11')
+  let c2mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/W1p3KrTSzJXH3ujnGvNsYSP5bNvoUrfbmWfZDUnLH7Py12')
+  let c3mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/W1p3KrTSzJXH3ujnGvNsYSP5bNvoUrfbmWfZDUnLH7Py13')
+  let c4mh = multiaddr('/ip4/127.0.0.1/tcp/9090/ws/p2p-websocket-star/ipfs/W1p3KrTSzJXH3ujnGvNsYSP5bNvoUrfbmWfZDUnLH7Py14')
 
   it('start and stop signalling server (default port)', (done) => {
     rendezvous.start((err, server) => {
